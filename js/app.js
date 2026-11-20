@@ -220,6 +220,11 @@
       return;
     }
     document.getElementById("consult-title").textContent = c.title || "";
+    const title2 = document.getElementById("consult-title-2");
+    if (title2) {
+      title2.textContent = c.titleLine2 || "";
+      title2.hidden = !c.titleLine2;
+    }
     document.getElementById("consult-subtitle").textContent = c.subtitle || "";
     box.href = c.url || "#";
   }
