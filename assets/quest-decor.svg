@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 120" fill="none" aria-hidden="true">
+  <!-- main quest road (wave) -->
+  <path
+    id="road"
+    d="M-10 78 C 40 48, 80 98, 130 72 S 200 40, 250 68 S 320 100, 380 62 S 430 40, 450 55"
+    stroke="#D4A574"
+    stroke-width="3.5"
+    stroke-linecap="round"
+    stroke-dasharray="9 10"
+    opacity="0.95"
+  />
+  <!-- soft road shadow -->
+  <path
+    d="M-10 82 C 40 52, 80 102, 130 76 S 200 44, 250 72 S 320 104, 380 66 S 430 44, 450 59"
+    stroke="#E8C9A0"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-dasharray="9 10"
+    opacity="0.35"
+  />
+
+  <!-- stars along road -->
+  <g>
+    <path fill="#F4C430" d="M52 42l3.4 7 7.6 1.1-5.5 5.4 1.3 7.6L52 59.4 44.2 63.1l1.3-7.6-5.5-5.4 7.6-1.1z"/>
+    <path fill="#5B9BD5" d="M210 28l2.8 5.7 6.2.9-4.5 4.4 1 6.2-5.5-2.9-5.5 2.9 1-6.2-4.5-4.4 6.2-.9z"/>
+    <path fill="#F4C430" d="M300 88l2.4 4.9 5.4.8-3.9 3.8.9 5.3-4.8-2.5-4.8 2.5.9-5.3-3.9-3.8 5.4-.8z" opacity="0.9"/>
+    <path fill="#FF8FAB" d="M150 95l2 4.1 4.5.7-3.3 3.2.7 4.4-3.9-2.1-3.9 2.1.7-4.4-3.3-3.2 4.5-.7z"/>
+    <path fill="#F4C430" d="M370 30l2.2 4.5 5 .7-3.6 3.5.8 4.9-4.4-2.3-4.4 2.3.8-4.9-3.6-3.5 5-.7z"/>
+  </g>
+
+  <!-- checkpoint flags on the path -->
+  <g>
+    <path d="M95 70v-26" stroke="#8B5A2B" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M95 44l17 7-17 7z" fill="#F4A261"/>
+    <circle cx="95" cy="72" r="3.2" fill="#F4C430" stroke="#fff" stroke-width="1"/>
+
+    <path d="M275 74v-26" stroke="#8B5A2B" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M275 48l17 7-17 7z" fill="#E76F51"/>
+    <circle cx="275" cy="76" r="3.2" fill="#5B9BD5" stroke="#fff" stroke-width="1"/>
+
+    <path d="M355 58v-24" stroke="#8B5A2B" stroke-width="2.2" stroke-linecap="round"/>
+    <path d="M355 34l17 7-17 7z" fill="#2A9D8F"/>
+  </g>
+</svg>

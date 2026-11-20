@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hagen Creative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Zen+Maru+Gothic:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="quest-hero" aria-hidden="true">
+        <img class="quest-hero__road" src="assets/quest-decor.svg" alt="" />
+        <img
+          class="quest-hero__mascot"
+          src="assets/mascot-quest.png"
+          alt=""
+        />
+      </div>
+
+      <header class="profile" id="profile">
+        <img class="profile__logo" id="profile-logo" src="assets/logo.png" alt="" />
+        <h1 class="profile__brand" id="profile-brand">Hagen Creative</h1>
+        <p class="profile__title" id="profile-title"></p>
+        <p class="profile__handle" id="profile-handle"></p>
+        <p class="profile__tagline" id="profile-tagline"></p>
+        <p class="profile__desc" id="profile-desc"></p>
+        <nav class="socials" id="socials" aria-label="社群媒體"></nav>
+        <aside class="announce" id="announce" aria-label="公告">
+          <span class="announce__icon" aria-hidden="true">📢</span>
+          <div class="announce__marquee" id="announce-marquee">
+            <div class="announce__track" id="announce-track"></div>
+          </div>
+        </aside>
+      </header>
+
+      <section class="courses" aria-label="課程報名">
+        <div class="courses__intro">
+          <h2 class="courses__title" id="courses-title"></h2>
+          <p class="courses__subtitle" id="courses-subtitle"></p>
+        </div>
+        <div class="courses__list" id="courses-list"></div>
+      </section>
+
+      <a class="consult" id="consult" href="#" target="_blank" rel="noopener noreferrer">
+        <span class="consult__icon" aria-hidden="true">
+          <img class="consult__line" src="assets/icon-line.png" alt="" />
+          <span class="consult__cursor" aria-hidden="true"></span>
+        </span>
+        <span class="consult__body">
+          <span class="consult__title" id="consult-title"></span>
+          <span class="consult__subtitle" id="consult-subtitle"></span>
+        </span>
+      </a>
+
+      <section class="why" id="why" aria-label="為什麼選黑柑">
+        <h2 class="why__title" id="why-title"></h2>
+        <ul class="why__list" id="why-list"></ul>
+      </section>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
